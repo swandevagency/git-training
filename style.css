@@ -1,0 +1,107 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-section-wrapper {
+  background-color: #fff;
+  width: 100%;
+  height: 64px;
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left-header-section {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right-header-section {
+  width: 50%;
+  height: 100%;
+}
+
+.header-section-logo {
+  width: 64px;
+  height: 64px;
+}
+
+.header-section-logo img {
+  width: 100%;
+}
+
+.header-section-title {
+  margin-left: 10px;
+}
+
+.navbar-section-wrapper {
+  height: 100%;
+}
+
+.navbar-section-wrapper-items {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 40px;
+}
+
+.navbar-section-wrapper-items li {
+  -ms-flex-preferred-size: 14%;
+      flex-basis: 14%;
+  text-align: center;
+}
+
+.navbar-section-wrapper-items li:last-child {
+  background-color: #eee;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-section-wrapper-items a {
+  text-decoration: none;
+  color: #666;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
